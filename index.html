@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <h1>Aplicación CRUD con Búsqueda</h1>
+
+    <form id="todoForm">
+        <input type="text" id="taskInput" placeholder="Tarea">
+        <button type="submit">Agregar Tarea</button>
+    </form>
+    <br>
+    <form id="searchForm">
+        <input type="text" id="searchInput" placeholder="Buscar tarea">
+        <button type="submit">Buscar</button>
+        <button type="button" id="clearSearch">Limpiar Búsqueda</button>
+    </form>
+    <br>
+    <table id="taskTable">
+        <thead>
+            <tr>
+                <th>Tarea</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Los datos se agregarán dinámicamente aquí -->
+        </tbody>
+    </table>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Editar Tarea</h2>
+            <input type="text" id="editTaskInput" placeholder="Nueva Tarea">
+            <button id="updateTaskBtn">Actualizar Tarea</button>
+        </div>
+    </div>
+</body>
+<script src="fun.js"></script>
+
+</html>

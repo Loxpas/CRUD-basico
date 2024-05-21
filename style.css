@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ADD8E6; /* LightBlue */
+}
+
+h1 {
+    text-align: center;
+    color: #000; /* Color de texto negro intenso */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Sombra de texto con un borde blanco */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-content input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal-content button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+}
+
+.close {
+    color: black; /* Color del símbolo de cierre */
+    float: right; /* Alinea el botón de cierre a la derecha */
+    font-size: 28px; /* Tamaño del símbolo de cierre */
+    font-weight: bold; /* Hace que el símbolo de cierre sea más visible */
+}
+
+.modal-content {
+    /* Otros estilos aquí */
+    text-align: center; /* Centra el contenido */
+}
+
+#editTaskInput {
+    width: 80%; /* Establece el ancho del campo de entrada al 80% del contenedor */
+    max-width: 300px; /* Establece el ancho máximo del campo de entrada */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+    margin: 10px auto; /* Centra el campo de entrada horizontalmente */
+}
+
+
+.button-container {
+    text-align: center;
+}
+
+.button-container button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}
+
+#taskTable td.center-text {
+    text-align: center;
+}
+
+.btn-delete {
+    background-color: #FF0000 !important; /* Color de fondo rojo */
+    color: #fff; /* Color del texto */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    border-radius: 5px; /* Añade bordes redondeados */
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #CC0000 !important; /* Cambia el color de fondo cuando se pasa el ratón */
+}
